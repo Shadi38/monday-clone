@@ -17,7 +17,7 @@ const StatusDisplay = ({status})=>{
         return color
     }
     return(
-        <div className="Status-display" style={{backgroundColor:getColor(status)}}>
+        <div className="status-display" style={{backgroundColor:getColor(status)}}>
             {status}
         </div>
     )
