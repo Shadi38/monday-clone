@@ -4,9 +4,9 @@ import TicketPage from './pages/TicketPage';
 import Nav from './components/Nav';
 const App = () => {
   return (
-    <div className="App">
+    <div className="app">
       <BrowserRouter>
-        <Nav />
+        <Nav/>
         <Routes>
           <Route path='/' element={<Dashboard />} />
           <Route path='/ticket' element={<TicketPage />} />
