@@ -71,3 +71,12 @@ align-items: center;
     justify-content: center;
     width: 80px;
 }
+.ticket-card .img-container{
+    height: 50px;
+    width:50px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.ticket-card .img-container img{
+    width: 100%;
+}
