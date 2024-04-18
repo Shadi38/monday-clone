@@ -1,7 +1,7 @@
 const TicketPage = ()=>{
     return(
-        <div>
-            TicketPage
+        <div className="ticket">
+            <h1>{}</h1>
         </div>
     )
     }
